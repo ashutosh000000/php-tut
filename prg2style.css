@@ -1,7 +1,80 @@
+body
+{
+background-color: #FFFFFF;
+
+}
 .link-to-anouther
 {
 text-decoration: none;
 font-size: 20px;
-color: #FF6347;
-font-family: "Arial"
+color: #00ffffb0;
+font-family: "Arial";
+letter-spacing: -1px;
+
 }
+
+.link-to-anouther:hover
+{
+text-decoration: underline;
+font-size: 21px;
+color: #00ffff94;
+}
+
+table{
+    position: relative;
+    border-radius: 12px;
+    border: 7px solid #808080;
+    border-spacing: 2px 20px;
+    table-layout: fixed;
+    overflow: hidden;
+    
+}
+.table-d
+{
+background: -moz-linear-gradient(120deg,rgba(220,20,60,0.6), rgba(255,255,0,0.6));
+border-radius: 13px;
+padding: 10px;
+width: 600px;
+}
+
+.index-t
+{
+color:#A52A2A;
+font-size: 24px;
+font-family: "Arial";
+font-weight: bold;
+background-color: #FFFFFF;
+position: sticky;
+top: 30px;
+left: 100px;
+width: 210px;
+height: 20px;
+padding: 26px 0px 0px 176px;
+border-radius: 14px;
+}
+
+.dis
+{
+font-family: "Arial";
+font-size: 14px;
+font-weight: bold;
+color: #800080;
+border: 0.1px solid #808080;
+border-radius: 3px;
+overflow: hidden;
+width: 210px;
+}
+
+.belong
+{
+    border: 0px solid;
+}
+
+.t-td
+{
+    border: 0.1px solid #808080;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 210px;
+}
+

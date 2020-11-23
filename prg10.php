@@ -11,7 +11,7 @@ echo"the function of class demo is :".__FUNCTION__;
 function testme(){
 echo"the method of class demo :".__METHOD__;
 }
-echo"the class is :"__CLASS__;
+echo"the class is :".__CLASS__;
 }
 
 $object=new demo();
